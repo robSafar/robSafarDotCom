@@ -12,6 +12,10 @@ header {
   text-align: center;
   padding: 1rem;
 }
+header h1 {
+  text-transform: uppercase;
+  font-weight: 400; 
+}
 img.profile {
   display: block; 
   max-width: 85%;
@@ -45,16 +49,18 @@ p, ul, ol {
     background-color: #fff;
     color: #000;
   }
+  a, a:visited {
+    color: #3344dd;
+  }
 }
 @media screen and (prefers-color-scheme: dark) {
   body {
     background-color: #121212;
     color: #fff;
   }
-}
-a {
+  a, a:visited {
     color: #01a0e4;
+  }
 }
-a:visited {
-    color: #a16a94;
-}
+
+

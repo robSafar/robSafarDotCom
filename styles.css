@@ -46,23 +46,6 @@ pre {
   border-color: #000;
   background-color: #f5f6f7;
 }
-/*@media screen and (prefers-color-scheme: light) {
-  html {
-    background-color: #d8dbe2;
-  }
-  body {
-    background-color: #fff;
-    color: #000;
-    border: 2px #212738 solid;
-  }
-  a, a:visited {
-    color: #3344dd;
-  }
-  pre {
-    border-color: #000;
-    background-color: #f5f6f7;
-  }
-}*/
 @media screen and (prefers-color-scheme: dark) {
   html {
     background-color: #27241d;

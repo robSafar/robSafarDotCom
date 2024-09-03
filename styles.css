@@ -1,66 +1,85 @@
 html {
-  padding: 2rem;
+  padding: 1rem;
+  background-color: #d8dbe2;
 }
 body {
-  font-family: 'Space Mono', monospace;
-  max-width: 900px;
+  font-family: sans-serif;
+  max-width: 800px;
   margin-left: auto;
   margin-right: auto;
   padding: 1rem;
+  background-color: #fff;
+  color: #000;
+  border: 2px #212738 solid;
 }
 header {
   text-align: center;
   padding: 1rem;
 }
-header h1 {
-  text-transform: uppercase;
-  font-weight: 400; 
-}
-img.profile {
-  display: block; 
-  max-width: 85%;
-  min-width: 100px;
-  height: auto;
-  margin: auto; 
-  border-radius: 50%;
-}
-div.menu {
+h2 {
   text-align: center;
-  margin-top: 1rem;
-  padding: 1rem;
+  color: #fff;
+  padding: 0.2rem;
 }
-div.menu div {
-  margin: 1rem;
+h2.header_red {
+  background-color: #cd214f;
 }
-@media screen and (min-width: 500px) {
-  img.profile {
-    max-width: 350px;
-  }
-  div.menu div {
-    display: inline;
-  }
+h2.header_grey {
+  background-color: #9f9386;
 }
 p, ul, ol {
   font-size: 1rem;
-  line-height: 1.5rem;
+  line-height: 1.3rem;
 }
-@media screen and (prefers-color-scheme: light) {
+li {
+  padding-bottom: 0.5rem;
+}
+a, a:visited {
+  color: #3344dd;
+}
+pre {
+  white-space: pre-wrap;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border-width: 1px;
+  border-style: dotted;
+  border-color: #000;
+  background-color: #f5f6f7;
+}
+/*@media screen and (prefers-color-scheme: light) {
+  html {
+    background-color: #d8dbe2;
+  }
   body {
     background-color: #fff;
     color: #000;
+    border: 2px #212738 solid;
   }
   a, a:visited {
     color: #3344dd;
   }
-}
+  pre {
+    border-color: #000;
+    background-color: #f5f6f7;
+  }
+}*/
 @media screen and (prefers-color-scheme: dark) {
+  html {
+    background-color: #27241d;
+  }
   body {
     background-color: #121212;
     color: #fff;
+    border: 2px #ded8c7 solid;
   }
   a, a:visited {
     color: #01a0e4;
   }
+  h2.header_grey {
+    background-color: #606c79;
+  }
+  pre {
+    border-color: #fff;
+    background-color: #0a0908;
+  }
 }
-
-
